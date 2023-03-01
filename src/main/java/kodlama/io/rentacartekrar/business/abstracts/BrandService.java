@@ -8,6 +8,8 @@ import kodlama.io.rentacartekrar.business.responses.GetByIdBrandResponse;
 import java.util.List;
 
 public interface BrandService {
+
+
     List<GetAllBrandsResponse> getAll();
     GetByIdBrandResponse getById(int id);
     void add(CreateBrandRequest createBrandRequest);
