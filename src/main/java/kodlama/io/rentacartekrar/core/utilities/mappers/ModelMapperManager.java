@@ -18,6 +18,7 @@ public class ModelMapperManager implements ModelMapperService {
         return this.modelMapper;
     }
 
+
     @Override
     public ModelMapper forRequest() {
         this.modelMapper.getConfiguration()
