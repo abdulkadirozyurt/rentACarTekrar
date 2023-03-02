@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338a5633-b0d9-46b1-9628-6a256007bc30" name="Changes" comment="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper" />
+    <list default="true" id="338a5633-b0d9-46b1-9628-6a256007bc30" name="Changes" comment="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/ModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/ModelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/responses/GetAllModelsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/abstracts/ModelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/ModelManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/responses/GetAllModelsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/BrandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/BrandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/BrandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Brand.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +95,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kodlama.io.rentacartekrar.business.requests" />
+      <recent name="kodlama.io.rentacartekrar.business.responses" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,6 +142,8 @@
       <workItem from="1677708272897" duration="86000" />
       <workItem from="1677708378428" duration="420000" />
       <workItem from="1677708811004" duration="55000" />
+      <workItem from="1677708902084" duration="356000" />
+      <workItem from="1677788692411" duration="4343000" />
     </task>
     <task id="LOCAL-00001" summary="rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper">
       <created>1677708147575</created>
@@ -150,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677708774994</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper">
+      <created>1677708954646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677708954646</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
