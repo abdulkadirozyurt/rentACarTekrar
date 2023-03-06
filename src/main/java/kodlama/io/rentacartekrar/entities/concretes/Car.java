@@ -26,4 +26,8 @@ public class Car {
     @ManyToOne
     @JoinColumn(name = "model_id")
     private Model model;
+
+
+
+
 }

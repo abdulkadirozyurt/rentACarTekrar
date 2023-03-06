@@ -4,33 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338a5633-b0d9-46b1-9628-6a256007bc30" name="Changes" comment="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/ModelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/ModelManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/responses/GetAllModelsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/abstracts/ModelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/ModelManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/responses/GetAllModelsResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.class" afterDir="false" />
+    <list default="true" id="338a5633-b0d9-46b1-9628-6a256007bc30" name="Changes" comment="Model and Car entities added, CRUD operations added for these.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/rules/BrandBusinessRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/rules/ModelBusinessRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/core/utilities/exceptions/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/core/utilities/exceptions/ProblemDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/core/utilities/exceptions/ValidationProblemDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/abstracts/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/RentACarTekrarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/RentACarTekrarApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/BrandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/concretes/ModelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateBrandRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateBrandRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/BrandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/entities/concretes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/BrandsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/BrandsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/BrandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/BrandManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/entities/concretes/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/ModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/concretes/ModelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/CreateModelRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/business/requests/UpdateModelRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/BrandRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/BrandRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/dataAccess/abstracts/ModelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlama/io/rentacartekrar/webApi/controllers/ModelsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,27 +74,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdulkadir/Desktop/renACarTekrar/rentACarTekrar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0a7dc046f1b82490f961a0472b7bdd13&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/abdulkadir/Desktop/renACarTekrar/rentACarTekrar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "spring.configuration.checksum": "0a7dc046f1b82490f961a0472b7bdd13",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kodlama.io.rentacartekrar.core.utilities.exceptions" />
       <recent name="kodlama.io.rentacartekrar.business.requests" />
       <recent name="kodlama.io.rentacartekrar.business.responses" />
     </key>
@@ -143,7 +145,10 @@
       <workItem from="1677708378428" duration="420000" />
       <workItem from="1677708811004" duration="55000" />
       <workItem from="1677708902084" duration="356000" />
-      <workItem from="1677788692411" duration="4343000" />
+      <workItem from="1677788692411" duration="4432000" />
+      <workItem from="1678027139503" duration="2283000" />
+      <workItem from="1678041200790" duration="2804000" />
+      <workItem from="1678104092847" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper">
       <created>1677708147575</created>
@@ -187,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677708954646</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Model and Car entities added, CRUD operations added for these.">
+      <created>1677793108364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677793108364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper" />
     <MESSAGE value="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="FirstCommmit: rentACar Project reCap, GetAll, getById, add, update, delete operations added for Brand entity, with ModelMapper" />
+    <MESSAGE value="Model and Car entities added, CRUD operations added for these." />
+    <option name="LAST_COMMIT_MESSAGE" value="Model and Car entities added, CRUD operations added for these." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,6 @@
 package kodlama.io.rentacartekrar.webApi.controllers;
 
+import jakarta.validation.Valid;
 import kodlama.io.rentacartekrar.business.abstracts.ModelService;
 import kodlama.io.rentacartekrar.business.requests.CreateModelRequest;
 import kodlama.io.rentacartekrar.business.requests.UpdateModelRequest;
@@ -23,11 +24,11 @@ public class ModelsController {
 
     @PostMapping
     @ResponseStatus(code = HttpStatus.CREATED)
-    public void add(@RequestBody CreateModelRequest createModelRequest){
+    public void add(@RequestBody @Valid CreateModelRequest createModelRequest){
         this.modelService.add(createModelRequest);
     }
     @PutMapping
-    public void update(@RequestBody UpdateModelRequest updateModelRequest){
+    public void update(@RequestBody @Valid UpdateModelRequest updateModelRequest){
         this.modelService.update(updateModelRequest);
     }
     @DeleteMapping("/{id}")

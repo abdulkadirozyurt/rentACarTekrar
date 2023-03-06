@@ -1,5 +1,8 @@
 package kodlama.io.rentacartekrar.business.requests;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +11,14 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateModelRequest {
+    @NotNull
+    @NotBlank
+    @Size(min = 2, max = 20)
     private String name;
+    @NotNull
+    @NotBlank
     private int brandId;                        // yeni oluşturulan model, hangi markaya ait?
 }
+
+
+// nut null ve nut blank bunların çalışması için ilgili kontroller metodunda @Valid parametresi geçilir.

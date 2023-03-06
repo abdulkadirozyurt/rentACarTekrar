@@ -6,5 +6,7 @@ import org.springframework.stereotype.Repository;
 
 
 public interface BrandRepository extends JpaRepository<Brand,Integer> {
+        // marka adını kontrol etmek için oluşturduğumuz business rules kısmındaki metotta find by name gibi bir şey olmadığı için kendi metodumuzu yazıyoruz.
+        boolean existsByName(String name);
 
 }
